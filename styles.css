@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: left ;
+    align-items: flex-end;
+    margin-left: 70px;
+    margin-bottom:50px ;
+
+    height: 100vh;
+    background-color: #f0f0f0;
+    background-image: url(https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/88D4AB27908B1613E3790FF8F0EC9BE5B9583F07F1C7D3590DA4449DB35FA9AD/scale?width=1200&aspectRatio=1.78&format=webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+   
+  }
+  
+  .stopwatch {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .display {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .controls button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: red;
+    border: solid 2px ;
+    border-radius: 9px;
+    
+  }
+  
+  .controls button:hover {
+    background-color: #0056b3;
+  }
+  
